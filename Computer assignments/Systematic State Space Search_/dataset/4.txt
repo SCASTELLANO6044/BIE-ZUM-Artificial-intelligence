@@ -1,0 +1,7 @@
+XXXXX
+X   X
+X   X
+X X X
+XXXXX
+0003, 0003
+0001, 0001

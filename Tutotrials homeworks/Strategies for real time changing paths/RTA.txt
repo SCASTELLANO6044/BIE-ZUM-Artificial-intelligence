@@ -1,0 +1,9 @@
+Porposed question by the teacher as homework:
+
+¿Which kind of algorithms could we use in a path with moving objects?
+
+We could solve this by using algorithms with real time updates combined 
+with heuristic, that way we could have an updated view of the pathgraphf 
+and chose which path is better, a good example of this would be to combine
+Greedy Best-first Search with as I said a real time update of the 
+pathgrahf.

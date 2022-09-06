@@ -365,17 +365,11 @@ def a_start_search():
     path = calc_traceback(closed_queue, register)
     print_result(maze, path)
 
+"""
+maze = load_maze("dataset\\6.txt")
+"""
+maze = load_maze("testovaci_data\\1.txt")
 
-maze = load_maze("C:\CTU\Summer Semester\BIE-ZUM Artificial "
-                 "Intelligence Fundamentals\Homeworks\\bie-zum"
-                 "-homework01\Computer assignments\Systematic State Space Search_"
-                 "\dataset\\6.txt")
-"""
-maze = load_maze("C:\CTU\Summer Semester\BIE-ZUM Artificial "
-                 "Intelligence Fundamentals\Homeworks\\bie-zum"
-                 "-homework01\Computer assignments\Systematic State Space Search_"
-                 "\\testovaci_data\\1.txt")
-"""
 maze = conver_maze(maze)
 guide = coordenates(maze)
 maze = normalize_maze(maze)

@@ -1,5 +1,6 @@
 import queue
 import random
+from pathlib import Path
 
 from collections import deque
 
@@ -365,10 +366,8 @@ def a_start_search():
     path = calc_traceback(closed_queue, register)
     print_result(maze, path)
 
-"""
-maze = load_maze("dataset\\6.txt")
-"""
-maze = load_maze("testovaci_data\\1.txt")
+assignment_dir = Path(__file__).resolve().parent
+maze = load_maze(assignment_dir / "testovaci_data" / "1.txt")
 
 maze = conver_maze(maze)
 guide = coordenates(maze)
